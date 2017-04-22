@@ -138,6 +138,33 @@ section h2 {
     background-color: #E3F5F8;
 }
 
-#weeklySpecial {
-    background-color: #F3D874;
+@media only screen and (min-width: 481px) {
+    nav, footer {
+        width: 100%;
+    }
+    
+    nav li {
+        display: inline;
+    }
+    
+    main {
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #imageGallery {
+        float: right;
+        width: 35%;
+    }
+    
+    #travelAdventure {
+        float: left;
+        width: 55%;
+    }
+    
+    footer {
+        clear: both;
+    }
 }
